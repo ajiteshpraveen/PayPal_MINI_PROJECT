@@ -1,0 +1,22 @@
+html    
+    body
+        center
+            h1 Welcome #{name} --  Registration Number #{rno}
+            br
+            form(action = "/signout" method = "post")
+                button.btn.btn-primary(type='submit') SIGNOUT
+            br
+            br
+            label Please click on one option
+            br
+            table
+                tr
+                    td
+                        form(action = "/all_courses" method = "post")
+                            button.btn.btn-primary(type='submit') View All Courses
+                    td
+                        form(action = "/ongoing_courses" method = "post")
+                            button.btn.btn-primary(type='submit') View Ongoing Courses
+                    td
+                        form(action = "/completed_courses" method = "post")
+                            button.btn.btn-primary(type='submit') View Completed Courses

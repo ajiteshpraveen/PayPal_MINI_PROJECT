@@ -1,0 +1,28 @@
+html
+    body
+        center
+            label #{message}
+            br
+            form(action = "/registration_form" method = "post")
+                table
+                    tr
+                        td 
+                            label NAME: 
+                        td
+                            input(type = "text" name = "name")
+                    tr
+                        td
+                            label REGISTRATION NUMBER: 
+                        td
+                            input(type = "text" name = "registration_no")
+                    tr
+                        td
+                            label EMAIL ID: 
+                        td
+                            input(type = "text" name = "email_id")
+                    tr
+                        td
+                            label PASSWORD:
+                        td
+                            input(type = "password" name = "password")
+                button.btn.btn-primary(type='submit') REGISTER
