@@ -1,6 +1,7 @@
 # PayPal_MINI_PROJECT
 
 # To start the project run file "college_mgmt.js"
+# In browser: localhost:3000/cllg_mgmt
 # Login using the following names || register number || password
 ->Name: AjiteshPraveen,  Registration_Number : "15MIS1104", Password : "Pranshugupta56" 
 ->Name: Mansij, Registration_Number : "15MIS1107", Password : "Mansij56"
