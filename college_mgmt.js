@@ -71,6 +71,7 @@ app.post("/registration_form", function(req, res){
         }
         else{
             registration_details.push({Name : req.body.name, Registration_Number : req.body.registration_no, Email : req.body.email_id, Password : req.body.password});
+            login_details.push({Registration_Number : req.body.registration_no, Password : req.body.password});
             //console.log("Data has been added to registration details");
             //console.log("The updated reg array is");
             //console.log(registration_details);
